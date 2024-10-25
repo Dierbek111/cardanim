@@ -1,0 +1,53 @@
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: white;
+} 
+.container{ 
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 15px; 
+}
+body{
+  background-color: white;
+  padding: 50px;
+  color: white;
+}
+
+
+
+.box{
+display: flex;
+flex-direction: column;
+gap: 15px;
+border: 1px solid black;
+
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+button{
+  padding: 15px;
+}
+
+h4{
+  color: black;
+}
+}
+
+
+
+
+
+
+button, input{
+  padding: 15px;
+ 
+}
+
+h4{
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
